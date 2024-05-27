@@ -43,6 +43,7 @@ const Nav = (props) => {
           className="navbarContainer home-navbar-interactive"
         >
           <span className="logo">{t("logo")}</span>
+          <span className="logo">{t("logo")}</span>
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <nav className="home-links">
              <Link  
