@@ -33,21 +33,21 @@ const Nav = (props) => {
   };
   return (
     <div className="home-container">
-      <Helmet>
+      {/* <Helmet>
         <title>CroPhecy</title>
         <meta property="og:title" content="Fitting Devoted Jackal" />
-      </Helmet>
+      </Helmet> */}
       <div className="home-header">
         <header
           data-thq="thq-navbar"
           className="navbarContainer home-navbar-interactive"
         >
-          <span className="logo">{t("logo")}</span>
-          <span className="logo">{t("logo")}</span>
+          <img src="images/logo.png" alt="Logo" class="logo" />
+          {/* <span className="logo">{t("logo")}</span> */}
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <nav className="home-links">
              <Link  
-              className="bodySmall"
+              className="bodySmall buttonFilled home-nav42"
               spy={true}
               smooth = {true}
               offset={-70}
@@ -55,7 +55,7 @@ const Nav = (props) => {
               to="/"
              > {t("home")}</Link>
              <Link  
-              className="home-nav42 bodySmall"
+              className="home-nav42 bodySmall buttonFilled"
               spy={true}
               smooth = {true}
               offset={-70}
@@ -64,7 +64,7 @@ const Nav = (props) => {
              >{t("about")}</Link>
               
               <Link  
-              className="home-nav42 bodySmall"
+              className="home-nav42 bodySmall buttonFilled"
               spy={true}
               smooth = {true}
               offset={-70}
@@ -72,7 +72,7 @@ const Nav = (props) => {
               to="/guide"
              >{t("guide")}</Link>
               <Link  
-              className="home-nav42 bodySmall"
+              className="home-nav42 bodySmall buttonFilled"
               spy={true}
               smooth = {true}
               offset={-70}
@@ -83,7 +83,7 @@ const Nav = (props) => {
 {isUserLoggedIn&&(
 
 <Link  
-              className="home-nav42 bodySmall"
+              className="home-nav42 bodySmall "
               spy={true}
               smooth = {true}
               offset={-70}
@@ -92,23 +92,37 @@ const Nav = (props) => {
              >{t("pridiction")}</Link>
 )}
             </nav>
-            <LanguageSelector/>
-            {!isUserLoggedIn&&(
+            {/* <LanguageSelector/> */}
+            {/* <div class="locations">
+            <div class="location">
+                <a href="dholera.html">
+                    <img src="images/mum.png" alt="Dholera"/>
+                    <h2>Dholera</h2>
+                </a>
+            </div>
+            <div class="location">
+                <a href="mumbai.html">
+                    <img src="images/mumbai.png" alt="Mumbai"/>
+                    <h2>Mumbai</h2>
+                </a>
+            </div>
+        </div> */}
+      
 
-              <div className="home-buttons">
+              {/* <div className="home-buttons">
               <button 
                 className="home-login buttonFlat"
                 onClick={handleClick}
-                >{t("login")}</button>
+                >{t("login")}</button> */}
               {/* <button className="buttonFilled" onClick={switchToSignup} >Register</button> */}
-            </div>
-            )}
-            {isUserLoggedIn&&(
+            {/* </div> */}
+            
+            
 
-              <div className="home-buttons">
+              {/* <div className="home-buttons">
               <button className="buttonFilled" onClick={logoutHandler}>{t("logout")}</button>
-              </div>
-            )}
+              </div> */}
+           
 
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">

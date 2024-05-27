@@ -38,9 +38,16 @@ const Home = (props) => {
         <title>CroPhecy</title>
         <meta property="og:title" content="Fitting Devoted Jackal" />
       </Helmet>
-      
       <div className="home-hero">
         <div className="heroContainer home-hero1">
+{/* ****************************************************************** */}
+
+
+{/* ************************************************************************* */}
+
+
+
+      <h1>Ready to find your dream property? Choose your perfect location:</h1>
           <div className="home-container01">
             <h1 className="home-hero-heading heading1">
               {t("greeting")}
@@ -132,6 +139,24 @@ const Home = (props) => {
                   <span>
                     <span>
                      {t("features_heading_sub")}
+
+            <section className='choose_location'>
+
+          <div class="locations">
+            <div class="location">
+                <a href="dholera.html">
+                    <img src="images/dhol1.png" alt="Dholera"/>
+                    <h2 className='bodyMedium'>Dholera</h2>
+                </a>
+            </div>
+            <div class="location">
+                <a href="mumbai.html">
+                    <img src="images/mum.png" alt="Mumbai"/>
+                    <h2 className='bodyMedium' >Mumbai</h2>
+                </a>
+            </div>
+        </div>
+            </section>
                     </span>
                     <span>
                       <span
