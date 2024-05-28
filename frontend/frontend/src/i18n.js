@@ -21,7 +21,7 @@ i18n
                 sub_greeting_btn1 : 'Get Started',
                 sub_greeting_btn2 : 'Learn more',
                 features:'FEATURES',
-                features_heading : "Discover your ideal property: Mumbai or Dholera?",
+                features_heading : "Choose your preferred location : Mumbai or Dholera?",
                 features_heading_sub : "Make informed decisions for a successful property investment.",
                 home : "Home",
                 about:"About us",

@@ -6,10 +6,12 @@ import { useHistory } from 'react-router-dom'
 
 import FeatureCard from '../components/FeatureCard/feature-card'
 import Question1 from '../components/question1'
-// import './home.css'
+import './home.css'
 //import MyForm from '../components/Form'
+import PropertyCard from '../components/property_cards/feature-card.js'
 
-const Home = (props) => {
+
+const Mumbai = (props) => {
   const history = useHistory();
 
   const isUserLoggedIn = !!localStorage.getItem('user');
@@ -29,7 +31,40 @@ const Home = (props) => {
 
 
   const { t} = useTranslation()
-  
+  const properties = [
+    {
+      image: 'images/img_2.jpg',
+      projectName: 'Project One',
+      price: '$500,000',
+      type: 'Apartment',
+      location: 'New York, NY'
+    },
+    {
+      image: 'images/img_2.jpg',
+      projectName: 'Project Two',
+      price: '$750,000',
+      type: 'House',
+      location: 'San Francisco, CA'
+    }
+    ,
+    {
+      image: 'images/img_2.jpg',
+      projectName: 'Project Two',
+      price: '$750,000',
+      type: 'House',
+      location: 'San Francisco, CA'
+    }
+    ,
+    {
+      image: 'images/img_2.jpg',
+      projectName: 'Project Two',
+      price: '$750,000',
+      type: 'House',
+      location: 'San Francisco, CA'
+    }
+    
+  ];
+
 
 
   return (
@@ -56,6 +91,8 @@ const Home = (props) => {
               <span>
                 <span>
                   {/* <span>{t("sub_greeting")}</span> */}
+
+
                   <span>
                     <span
                       dangerouslySetInnerHTML={{
@@ -142,20 +179,31 @@ const Home = (props) => {
 
             <section className='choose_location'>
 
-          <div class="locations">
-            <div class="location">
-                <a href="dholera00">
-                    <img src="images/dhol1.png" alt="Dholera"/>
-                    <h2 className='bodyMedium'>Dholera</h2>
-                </a>
-            </div>
-            <div class="location">
-                <a href="mumbai">
-                    <img src="images/mum.png" alt="Mumbai"/>
-                    <h2 className='bodyMedium' >Mumbai</h2>
-                </a>
-            </div>
-        </div>
+            <div className="property_container">
+
+      {properties.map((property, index) => (
+        <a href="/property" >
+          <PropertyCard
+          key={index}
+          image={property.image}
+          projectName={property.projectName}
+          price={property.price}
+          type={property.type}
+          location={property.location}
+          />
+        </a>
+        ))}
+    </div>
+
+
+
+
+
+
+
+
+
+
             </section>
                     </span>
                     <span>
@@ -383,4 +431,4 @@ const Home = (props) => {
   )
 }
 
-export default Home
+export default Mumbai
