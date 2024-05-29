@@ -3,13 +3,13 @@ import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet'
 import "../i18n.js";
 import { useHistory } from 'react-router-dom'
-
+import './home.css';
 import FeatureCard from '../components/FeatureCard/feature-card'
 import Question1 from '../components/question1'
 import './home.css'
 //import MyForm from '../components/Form'
 import PropertyCard from '../components/property_cards/feature-card.js'
-
+import PropertyMap from '../components/map/map.js'
 
 const Mumbai = (props) => {
   const history = useHistory();
@@ -69,23 +69,19 @@ const Mumbai = (props) => {
 
   return (
     <div className="home-container">
-      <Helmet>
+      {/* <Helmet>
         <title>CroPhecy</title>
         <meta property="og:title" content="Fitting Devoted Jackal" />
-      </Helmet>
+      </Helmet> */}
       <div className="home-hero">
-        <div className="heroContainer home-hero1">
-{/* ****************************************************************** */}
-
-
-{/* ************************************************************************* */}
+        <div className="heroContainer_mumbai home-hero1">
 
 
 
       {/* <h1>Ready to find your dream property? Choose your perfect location:</h1> */}
           <div className="home-container01">
             <h1 className="home-hero-heading heading1">
-              {t("greeting")}
+              {/* {t("greeting")}  */} Mumbai
             </h1>
             <span className="home-hero-sub-heading bodyLarge">
               <span>
@@ -98,7 +94,7 @@ const Mumbai = (props) => {
                       dangerouslySetInnerHTML={{
                         __html: ' ',
                       }}
-                    />
+                      />
                   </span>
                 </span>
                 <span>
@@ -107,7 +103,7 @@ const Mumbai = (props) => {
                       dangerouslySetInnerHTML={{
                         __html: ' ',
                       }}
-                    />
+                      />
                   </span>
                   <span>
                     <span
@@ -141,14 +137,14 @@ const Mumbai = (props) => {
                       dangerouslySetInnerHTML={{
                         __html: ' ',
                       }}
-                    />
+                      />
                   </span>
                   <span>
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
                       }}
-                    />
+                      />
                   </span>
                 </span>
               </span>
@@ -172,6 +168,13 @@ const Mumbai = (props) => {
                 {t("features_heading")}
               </h2>
               <span className="home-features-sub-heading bodyLarge">
+                      {/* ****************************************************************** */}
+                      <div className='map'>
+
+                              <PropertyMap></PropertyMap>
+                      </div>
+                      
+                      {/* ************************************************************************* */}
                 <span>
                   <span>
                     <span>

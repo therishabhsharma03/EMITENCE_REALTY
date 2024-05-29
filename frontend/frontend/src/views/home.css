@@ -9,7 +9,7 @@
 .home-header {
   width: 100%;
   display: flex;
-  z-index: 100;
+  z-index: 1000;
   position: fixed;
   align-items: center;
   flex-direction: column;
@@ -60,7 +60,7 @@
   height: 100vh;
   display: none;
   padding: 32px;
-  z-index: 100;
+  z-index: 1000;
   position: absolute;
   flex-direction: column;
   justify-content: space-between;
@@ -968,3 +968,30 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.map{
+  z-index: -0;
+}
+.leaflet-popup-content-wrapper {
+  width: 250px; /* Adjust the width as needed */
+}
+
+.leaflet-popup-content {
+  max-height: 3000px; /* Adjust the max-height as needed */
+  overflow-y: auto;
+}
+
+/* Marker tooltip style */
+
+
+/* Popup content style */
+.leaflet-popup-content-wrapper {
+  width: 200px; /* Adjust the width as needed */
+  max-width: 100%;
+}
+
+
+.leaflet-popup-content img {
+  max-width: 100%;
+  height: auto;
+}
+

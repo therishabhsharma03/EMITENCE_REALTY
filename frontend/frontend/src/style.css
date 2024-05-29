@@ -249,6 +249,7 @@
   color: var(--dl-color-custom-neutral-dark);
   background-color: var(--dl-color-custom-neutral-light);
 }
+
 /* .heroContainer {
   color: var(--dl-color-custom-neutral-dark);
   width: 100%;
@@ -329,6 +330,26 @@
   display: flex;
   /* min-height: auto; */
   height: 100vh;
+  align-items: center;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-sixunits);
+  justify-content: center;
+  background-image: linear-gradient(rgba(90, 88, 7, 0.59), rgba(0, 0, 0, 0.5)), url(/img/pridiction_bg.webp);
+  /* background-image: url(/img/background.jpg);   */
+  background-size: cover;
+  background-position: center;
+
+}
+.heroContainer_mumbai{
+  display: border-box;
+  color: var(--dl-color-custom-secondary1);
+  width: 100%;
+  display: flex;
+  /* min-height: auto; */
+  height: 60vh;
   align-items: center;
   padding-top: var(--dl-space-space-sixunits);
   padding-left: var(--dl-space-space-threeunits);
@@ -604,3 +625,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
