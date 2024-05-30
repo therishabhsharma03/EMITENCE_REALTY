@@ -70,7 +70,9 @@ const Nav = (props) => {
               offset={-70}
               duration={500}
               to="/guide"
-             >{t("guide")}</Link>
+             >
+              {/* {t("guide")} */} Location
+             </Link>
               <Link  
               className="home-nav42 bodySmall buttonFilled"
               spy={true}
@@ -78,7 +80,10 @@ const Nav = (props) => {
               offset={-70}
               duration={500}
               to="/crops"
-             >{t("crop_info")}</Link>
+             >
+              {/* {t("crop_info")} */}
+              Contact Us
+             </Link>
 
 {isUserLoggedIn&&(
 
@@ -179,6 +184,7 @@ const Nav = (props) => {
           </div>
         </header>
       </div>
+      
     </div>
   )
 }

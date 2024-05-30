@@ -14,6 +14,7 @@
   align-items: center;
   flex-direction: column;
   background-color: var(--dl-color-gray-white);
+  background-color: #ffffff00;
 }
 .home-desktop-menu {
   flex: 1;
@@ -133,7 +134,7 @@
   height: auto;
   display: flex;
   position: relative;
-  margin-top: 96px;
+  /* margin-top: 96px; */
   align-items: flex-start;
   justify-content: center;
 }
@@ -995,3 +996,47 @@
   height: auto;
 }
 
+
+
+/* src/SearchBar.css */
+form {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  border-radius: 20px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.suggestions {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+  position: absolute;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+}
+
+.suggestions li {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background-color: #000000;
+}

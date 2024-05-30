@@ -10,7 +10,8 @@ import './home.css'
 //import MyForm from '../components/Form'
 import PropertyCard from '../components/property_cards/feature-card.js'
 import PropertyMap from '../components/map/map.js'
-
+import { useState } from 'react';
+import SearchBar from '../components/SearchBar/searchbar.js';
 const Mumbai = (props) => {
   const history = useHistory();
 
@@ -35,16 +36,16 @@ const Mumbai = (props) => {
     {
       image: 'images/img_2.jpg',
       projectName: 'Project One',
-      price: '$500,000',
+      price: '500,000',
       type: 'Apartment',
-      location: 'New York, NY'
+      location: 'Thane'
     },
     {
       image: 'images/img_2.jpg',
       projectName: 'Project Two',
       price: '$750,000',
       type: 'House',
-      location: 'San Francisco, CA'
+      location: 'Mumbai'
     }
     ,
     {
@@ -52,7 +53,7 @@ const Mumbai = (props) => {
       projectName: 'Project Two',
       price: '$750,000',
       type: 'House',
-      location: 'San Francisco, CA'
+      location: 'Thane'
     }
     ,
     {
@@ -60,11 +61,44 @@ const Mumbai = (props) => {
       projectName: 'Project Two',
       price: '$750,000',
       type: 'House',
-      location: 'San Francisco, CA'
+      location: 'Thane'
     }
-    
+    ,
+    {
+      image: 'images/img_2.jpg',
+      projectName: 'Project Two',
+      price: '$750,000',
+      type: 'House',
+      location: 'Thane'
+    }
+    ,
+    {
+      image: 'images/img_2.jpg',
+      projectName: 'Project Two',
+      price: '$750,000',
+      type: 'House',
+      location: 'Thane'
+    }
   ];
 
+  const [results, setResults] = useState([]);
+  const data = [
+    'apple',
+    'banana',
+    'grape',
+    'orange',
+    'pineapple',
+    'strawberry',
+    'watermelon'
+  ];
+
+  const handleSearch = (query) => {
+    const filteredResults = data.filter(item => 
+      item.toLowerCase().includes(query.toLowerCase())
+    );
+
+    setResults(filteredResults);
+  };
 
 
   return (
@@ -150,8 +184,8 @@ const Mumbai = (props) => {
               </span>
             </span>
             <div className="home-btn-group">
-              <button className="buttonFilled" onClick={handleClick}>{t("sub_greeting_btn1")}</button>
-              <button className="buttonFlat" onClick={handleClick1}>{t("sub_greeting_btn2")}→</button>
+              {/* <button className="buttonFilled" onClick={handleClick}>{t("sub_greeting_btn1")}</button>
+              <button className="buttonFlat" onClick={handleClick1}>{t("sub_greeting_btn2")}→</button> */}
             </div>
           </div>
         </div>
@@ -165,22 +199,22 @@ const Mumbai = (props) => {
                 <br></br>
               </span>
               <h2 className="home-features-heading heading2">
-                {t("features_heading")}
+                {/* {t("features_heading")} */} Mumbai's Latest Real Estate Developments
               </h2>
               <span className="home-features-sub-heading bodyLarge">
                       {/* ****************************************************************** */}
-                      <div className='map'>
+                      {/* <div className='map'>
 
                               <PropertyMap></PropertyMap>
                       </div>
-                      
+                       */}
                       {/* ************************************************************************* */}
                 <span>
                   <span>
                     <span>
                      {t("features_heading_sub")}
 
-            <section className='choose_location'>
+       
 
             <div className="property_container">
 
@@ -197,17 +231,6 @@ const Mumbai = (props) => {
         </a>
         ))}
     </div>
-
-
-
-
-
-
-
-
-
-
-            </section>
                     </span>
                     <span>
                       <span
@@ -270,7 +293,7 @@ const Mumbai = (props) => {
                 </span>
               </span>
             </div>
-            <div className="home-container03">
+            {/* <div className="home-container03">
               <FeatureCard
                 heading={t("soil_analysis")} 
                 subHeading={t("soil_analysis_guidance")}
@@ -287,11 +310,11 @@ const Mumbai = (props) => {
                 heading={t("optimal_crops")}
                 subHeading={t("optimal_crops_guidance")}
               ></FeatureCard>
-            </div>
+            </div> */}
           </div>
         </div>
+     {/* .. */}
       </div>
-     
       <div className="home-banner">
         <div className="bannerContainer home-banner1">
           <h1 className="home-banner-heading heading2">
