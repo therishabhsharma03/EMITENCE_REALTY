@@ -92,13 +92,14 @@
   font-weight: bold;
   padding-top: var(--dl-space-space-halfunit);
   padding-left: var(--dl-space-space-oneandhalfunits);
-  border-radius: 48px;
+  border-radius: 4px;
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: var(--dl-color-custom-primary1);
 }
 .buttonFilled:hover {
-  background-color: var(--dl-color-custom-primary2);
+  background-color: #ccc;
+  color: black;
 }
 .buttonFilledSecondary {
   color: var(--dl-color-custom-neutral-light);
