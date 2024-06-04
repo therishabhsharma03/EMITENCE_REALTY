@@ -15,7 +15,7 @@ const WelcomeText = () => {
             <span className="home-hero-sub-heading bodyLarge">
               <span>
                 <span>
-                  <span className='mar'>{t("our_project_about")}</span>
+                  {/* <span className='mar'>{t("our_project_about")}</span> */}
                   <span>
                     <span 
                       dangerouslySetInnerHTML={{

@@ -14,6 +14,18 @@ i18n
     resources:{
         en:{
             translation:{
+                service_1: "Commercial Properties",
+                service_1_1:"At Emitence Realty, we understand the dynamic nature of commercial real estate in Mumbai, India's financial capital. Our team of experts specializes in identifying prime commercial properties, including office spaces, retail outlets, and industrial units . Whether you're seeking a prestigious corporate headquarters or a strategic location for your retail venture, we've got you covered.",
+                
+                service_2: "Residential Properties",
+                service_2_2:"Discover the perfect balance between luxury and comfort with our residential property offerings in Mumbai. From stylish apartments to spacious villas, we curate a diverse portfolio to cater to every lifestyle. Our deep understanding of the city's vibrant neighborhoods ensures that you find not just a home but a sanctuary amid the hustle and bustle of this metropolis.",
+
+                service_3: "Property Investments",
+                service_3_3:"Unlock the potential of real estate investments with Emitence Realty. Our team of experts provides comprehensive guidance on lucrative investment opportunities, both in Mumbai and the emerging smart city of Dholera. With our finger on the pulse of the market, we identify properties that offer promising returns, enabling you to build a robust investment portfolio. Trust our expertise to navigate the complexities of real estate investments and maximize your returns.",
+
+                service_4: "Consultations",
+                service_4_4:"At Emitence Realty, we believe in empowering our clients with knowledge and personalized solutions. Our consultancy services encompass a wide range of areas, including property valuations, market analyses, legal advisory, and strategic planning. Whether you're a seasoned investor or a first-time homebuyer, our team of seasoned professionals is dedicated to providing tailored guidance to help you make informed decisions and achieve your real estate goals.",
+                
                 for_more_info_click_here: "To know more about SOIL HEALTH ",
                 click_here:"Click Here",
                 greeting : 'Easiest Way to Find Your Dream Home',

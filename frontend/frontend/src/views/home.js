@@ -219,7 +219,7 @@ const Home = (props) => {
                 </span>
               </span>
             </div>
-            <div className="home-container03">
+            <div className="home-container03_HOME">
               <FeatureCard
                 heading={t("soil_analysis")} 
                 subHeading={t("soil_analysis_guidance")}

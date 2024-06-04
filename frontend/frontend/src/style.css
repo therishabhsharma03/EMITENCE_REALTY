@@ -169,11 +169,33 @@
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-oneandhalfunits);
-  align-items: flex-start;
+  align-items: center;
   border-radius: 8px;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   background-color: var(--dl-color-custom-secondary1);
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+.team-img{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media(max-width: 767px) {
+  .team-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+@media(max-width: 479px) {
+  .team-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .featuresIcon {
   fill: var(--dl-color-custom-neutral-dark);
@@ -381,7 +403,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-sixunits);
   justify-content: center;
-  background-image: linear-gradient(rgba(11, 85, 3, 0.5), rgba(0, 0, 0, 0.5)), url(/img/about_bg.avif);
+  background-image: linear-gradient(rgba(11, 85, 3, 0.5), rgba(0, 0, 0, 0.5)), url(/images/emitence_about.jpg);
   /* background-image: url(/img/background.jpg);   */
   background-size: cover;
   background-position: center;

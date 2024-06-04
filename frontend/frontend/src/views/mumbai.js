@@ -206,8 +206,8 @@ const Mumbai = (props) => {
                       {/* <div className='map'>
 
                               <PropertyMap></PropertyMap>
-                      </div>
-                       */}
+                      </div> */}
+                      
                       {/* ************************************************************************* */}
                 <span>
                   <span>

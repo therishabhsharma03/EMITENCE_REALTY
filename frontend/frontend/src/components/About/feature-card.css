@@ -5,8 +5,14 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+.feature-card-image{
+  float: left;
+  width: 210px;
+  height: 210px;
+  background-size: cover;
+}
 .feature-card-text {
-  font-weight: 600;
+  font-weight: 600;  
   line-height: 28px;
 }
 @media(max-width: 767px) {

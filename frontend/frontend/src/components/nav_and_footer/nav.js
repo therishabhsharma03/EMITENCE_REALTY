@@ -40,8 +40,7 @@ const Nav = (props) => {
       <div className="home-header">
         <header
           data-thq="thq-navbar"
-          className="navbarContainer home-navbar-interactive"
-        >
+          className="navbarContainer home-navbar-interactive">
           <img src="images/logo.png" alt="Logo" class="logo" />
           {/* <span className="logo">{t("logo")}</span> */}
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
@@ -69,9 +68,19 @@ const Nav = (props) => {
               smooth = {true}
               offset={-70}
               duration={500}
-              to="/guide"
+              to="/guide">
+              {/* {t("guide")} */} Projects
+              </Link>
+              <Link  
+              className="home-nav42 bodySmall buttonFilled"
+              spy={true}
+              smooth = {true}
+              offset={-70}
+              duration={500}
+              to="/crops"
              >
-              {/* {t("guide")} */} Location
+              {/* {t("crop_info")} */}
+              Blogs
              </Link>
               <Link  
               className="home-nav42 bodySmall buttonFilled"
@@ -85,17 +94,7 @@ const Nav = (props) => {
               Contact Us
              </Link>
 
-{isUserLoggedIn&&(
 
-<Link  
-              className="home-nav42 bodySmall "
-              spy={true}
-              smooth = {true}
-              offset={-70}
-              duration={500}
-              to="/predictor"
-             >{t("pridiction")}</Link>
-)}
             </nav>
             {/* <LanguageSelector/> */}
             {/* <div class="locations">
