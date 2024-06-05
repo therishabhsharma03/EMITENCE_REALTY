@@ -14,6 +14,7 @@ import ImageUploadForm from './views/Pridict';
 import Hero from './components/crops/crop';
 import Crop from './views/crops';
 import Mumabai from './views/mumbai';
+import PropertyPage from './components/PropertyPages/property';
 
 const App = () => {
   // const selectedCrop = 'rice';
@@ -30,6 +31,7 @@ const App = () => {
           <Route path='/predictor' component={ImageUploadForm} />
           <Route path='/crops' component={Crop} />
           <Route path='/mumbai' component={Mumabai} />
+          <Route path = '/property' component = {PropertyPage} />
           {/* <Route path='/"kidneybeans"' component= {Hero cropName={selectedCrop}} /> */}
           {validCrops.map((crop) => (
             <Route key={crop} path={`/${crop}`}>

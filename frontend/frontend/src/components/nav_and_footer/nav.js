@@ -61,8 +61,8 @@ const Nav = (props) => {
                 </span>
                 {dropdownVisible && (
                   <div className="dropdown-menu">
-                    <Link to="/demo1" className="dropdown-item bodySmall">Dholera</Link>
-                    <Link to="/demo2" className="dropdown-item bodySmall">Mumbai</Link>
+                    <Link to="/dholera" className="dropdown-item bodySmall">Dholera</Link>
+                    <Link to="/mumbai" className="dropdown-item bodySmall">Mumbai</Link>
                   </div>
                 )}
               </div>
@@ -111,7 +111,7 @@ const Nav = (props) => {
                 {dropdownVisible && (
                   <div className="dropdown-menu">
                     <Link to="/demo1" className="dropdown-item bodySmall">Dholera</Link>
-                    <Link to="/demo2" className="dropdown-item bodySmall">Mumbai</Link>
+                    <Link to="/mumbai" className="dropdown-item bodySmall">Mumbai</Link>
                   </div>
                 )}
               </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet'
 import "../i18n.js";
-import { useHistory } from 'react-router-dom'
+import { useHistory, Link } from 'react-router-dom'
 import './home.css';
 import FeatureCard from '../components/FeatureCard/feature-card'
 import Question1 from '../components/question1'
@@ -218,18 +218,23 @@ const Mumbai = (props) => {
 
             <div className="property_container">
 
-      {properties.map((property, index) => (
-        <a href="/property" >
-          <PropertyCard
-          key={index}
-          image={property.image}
-          projectName={property.projectName}
-          price={property.price}
-          type={property.type}
-          location={property.location}
-          />
-        </a>
-        ))}
+            {properties.map((property, index) => (
+            <Link
+              to={{
+                pathname: '/property',
+                search:`?property=${encodeURIComponent(JSON.stringify(property))}`,
+              }}
+              key={index}
+            >
+              <PropertyCard
+                image={property.image}
+                projectName={property.projectName}
+                price={property.price}
+                type={property.type}
+                location={property.location}
+              />
+            </Link>
+            ))}
     </div>
                     </span>
                     <span>
