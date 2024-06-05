@@ -11,7 +11,8 @@ const WelcomeText = () => {
           <div className="home-container01">
             <h1 className="home-hero-heading heading1">
               {t("thrive")}
-            </h1>
+            </h1> 
+            ABOUT US
             <span className="home-hero-sub-heading bodyLarge">
               <span>
                 <span>

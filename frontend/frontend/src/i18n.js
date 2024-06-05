@@ -15,10 +15,10 @@ i18n
         en:{
             translation:{
                 service_1: "Commercial Properties",
-                service_1_1:"At Emitence Realty, we understand the dynamic nature of commercial real estate in Mumbai, India's financial capital. Our team of experts specializes in identifying prime commercial properties, including office spaces, retail outlets, and industrial units . Whether you're seeking a prestigious corporate headquarters or a strategic location for your retail venture, we've got you covered.",
+                service_1_1:"At Emitence Realty, we understand the dynamic nature of commercial real estate in Mumbai, India's financial capital. Our team of experts specializes in identifying prime commercial properties, including office spaces, retail outlets, and industrial units. Whether you're seeking a prestigious corporate headquarters or a strategic location for your retail venture, we've got you covered.",
                 
                 service_2: "Residential Properties",
-                service_2_2:"Discover the perfect balance between luxury and comfort with our residential property offerings in Mumbai. From stylish apartments to spacious villas, we curate a diverse portfolio to cater to every lifestyle. Our deep understanding of the city's vibrant neighborhoods ensures that you find not just a home but a sanctuary amid the hustle and bustle of this metropolis.",
+                service_2_2:"Discover the perfect balance between luxury and comfort with our residential property offerings in Mumbai. From stylish apartments to spacious villas, we curate a diverse portfolio to cater to every lifestyle. Our deep understanding of the city's vibrant neighborhoods ensures that you find not just a home but a sanctuary amid the hustle and bustle of this metropolis As part of our future vision, we are actively exploring opportunities in the emerging smart city of Dholera, Gujarat.",
 
                 service_3: "Property Investments",
                 service_3_3:"Unlock the potential of real estate investments with Emitence Realty. Our team of experts provides comprehensive guidance on lucrative investment opportunities, both in Mumbai and the emerging smart city of Dholera. With our finger on the pulse of the market, we identify properties that offer promising returns, enabling you to build a robust investment portfolio. Trust our expertise to navigate the complexities of real estate investments and maximize your returns.",
