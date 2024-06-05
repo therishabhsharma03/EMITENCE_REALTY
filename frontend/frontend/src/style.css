@@ -92,14 +92,13 @@
   font-weight: bold;
   padding-top: var(--dl-space-space-halfunit);
   padding-left: var(--dl-space-space-oneandhalfunits);
-  border-radius: 4px;
+  border-radius: 48px;
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: var(--dl-color-custom-primary1);
 }
 .buttonFilled:hover {
-  background-color: #ccc;
-  color: black;
+  background-color: var(--dl-color-custom-primary2);
 }
 .buttonFilledSecondary {
   color: var(--dl-color-custom-neutral-light);
@@ -273,7 +272,7 @@
 }
 .mobileMenu {
   color: var(--dl-color-custom-neutral-dark);
-  background-color: var(--dl-color-custom-neutral-light);
+  background-color: var(--dl-color-emitence-black);
 }
 
 /* .heroContainer {
@@ -494,7 +493,7 @@
   background-color: var(--dl-color-custom-neutral-light);
 }
 .socialIcons {
-  fill: var(--dl-color-custom-neutral-dark);
+  fill: white;
 }
 .Content {
   font-size: 16px;

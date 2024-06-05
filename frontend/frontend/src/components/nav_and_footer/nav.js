@@ -61,8 +61,8 @@ const Nav = (props) => {
                 </span>
                 {dropdownVisible && (
                   <div className="dropdown-menu">
-                    <Link to="/demo1" className="dropdown-item bodySmall">Dholera</Link>
-                    <Link to="/demo2" className="dropdown-item bodySmall">Mumbai</Link>
+                    <Link to="/demo1" className="bodySmall home-nav42 buttonFilled">Dholera</Link>
+                    <Link to="/demo2" className="bodySmall home-nav42 buttonFilled">Mumbai</Link>
                   </div>
                 )}
               </div>
@@ -90,7 +90,7 @@ const Nav = (props) => {
           <div data-thq="thq-mobile-menu" className="home-mobile-menu1 mobileMenu">
             <div className="home-nav">
               <div className="home-top">
-                <span className="logo">Crophecy</span>
+                <span className="logo">Emitence</span>
                 <div data-thq="thq-close-menu" className="home-close-menu">
                   <svg viewBox="0 0 1024 1024" className="home-icon02 socialIcons">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
@@ -98,10 +98,10 @@ const Nav = (props) => {
                 </div>
               </div>
               <nav className="home-links1">
-              <Link className="bodySmall buttonFilled" spy={true} smooth={true} offset={-70} duration={500} to="/">
+              <Link className="bodySmall home-nav42 buttonFilled" spy={true} smooth={true} offset={-70} duration={500} to="/">
                 {t("home")}
               </Link>
-              <Link className="home-nav42 bodySmall buttonFilled" spy={true} smooth={true} offset={-70} duration={500} to="/aboutus">
+              <Link className="bodySmall home-nav42 buttonFilled" spy={true} smooth={true} offset={-70} duration={500} to="/aboutus">
                 {t("about")}
               </Link>
               <div className="dropdown" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} offset={-70}>
@@ -110,8 +110,8 @@ const Nav = (props) => {
                 </span>
                 {dropdownVisible && (
                   <div className="dropdown-menu">
-                    <Link to="/demo1" className="dropdown-item bodySmall">Dholera</Link>
-                    <Link to="/demo2" className="dropdown-item bodySmall">Mumbai</Link>
+                    <Link to="/demo1" className="bodySmall home-nav42 buttonFilled">Dholera</Link>
+                    <Link to="/demo2" className="bodySmall home-nav42 buttonFilled">Mumbai</Link>
                   </div>
                 )}
               </div>
