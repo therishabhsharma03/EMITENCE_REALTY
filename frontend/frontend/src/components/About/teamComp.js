@@ -147,7 +147,7 @@ Emitence Realty and Developers LLP is a real estate advisory firm offering a one
           <h2 className="home-features-heading heading2">
               Process at Emitence
               </h2>
-              <img src="/images/emitence_p.png" alt="Process Flowchart"  className="flow-chart" />
+              <img src="/images/emitence_process.png" alt="Process Flowchart"  className="flow-chart" />
               
           </div>
         </div>

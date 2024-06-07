@@ -388,6 +388,26 @@
   background-position: center;
 
 }
+.heroContainer_dholera{
+  display: border-box;
+  color: var(--dl-color-custom-secondary1);
+  width: 100%;
+  display: flex;
+  /* min-height: auto; */
+  height: 80vh;
+  align-items: center;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-sixunits);
+  justify-content: center;
+  background-image: linear-gradient(rgba(90, 88, 7, 0.59), rgba(0, 0, 0, 0.5)), url(/images/emitence_dholera.png);
+  /* background-image: url(/img/background.jpg);   */
+  background-size: cover;
+  background-position: center;
+
+}
 .heroContainer_about{
   display: border-box;
 
@@ -466,7 +486,7 @@
   background-color: var(--dl-color-custom-neutral-light);
 }
 .bannerContainer {
-  color: var(--dl-color-custom-neutral-dark);
+  color: #ffffff;
   width: 100%;
   /* height: auto; */
   display: flex;
@@ -477,7 +497,8 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-sixunits);
   justify-content: space-between;
-  background-color: var(--dl-color-custom-neutral-light);
+  background-color: #001c02;
+
 }
 .footerContainer {
   color: var(--dl-color-custom-neutral-dark);

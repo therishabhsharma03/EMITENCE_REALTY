@@ -69,7 +69,7 @@ const Nav = (props) => {
               <Link className="home-nav42 bodySmall buttonFilled" spy={true} smooth={true} offset={-70} duration={500} to="/guide">
                 Blogs
               </Link>
-              <Link className="home-nav42 bodySmall buttonFilled" spy={true} smooth={true} offset={-70} duration={500} to="/crops">
+              <Link className="home-nav42 bodySmall buttonFilled" spy={true} smooth={true} offset={-70} duration={500} to="/contactus">
                 Contact Us
               </Link>
 
