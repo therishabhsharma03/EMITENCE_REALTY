@@ -144,7 +144,7 @@ const Home = (props) => {
 
           <div class="locations">
             <div class="location">
-                <a href="dholera00">
+                <a href="dholera">
                     <img src="images/dhol1.png" alt="Dholera"/>
                     <h2 className='bodyMedium'>Dholera</h2>
                 </a>

@@ -115,22 +115,20 @@ const Dholera = (props) => {
 
       {/* <h1>Ready to find your dream property? Choose your perfect location:</h1> */}
           <div className="home-container01">
-            <h1 className="home-hero-heading heading1">
-              {/* {t("greeting")}  */} Dholera 
+            <h1 className="home-hero-heading heading2">
             </h1>
             <span className="home-hero-sub-heading bodyLarge">
               <span>
                 <span>
                   {/* <span>{t("sub_greeting")}</span> */}
-                  <h2 className='bodyLarge'>The new era</h2>
 
 
                   <span>
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
-                      }}
-                      />
+                        }}
+                        />
                   </span>
                 </span>
                 <span>
@@ -138,14 +136,14 @@ const Dholera = (props) => {
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
-                      }}
+                        }}
                       />
                   </span>
                   <span>
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
-                      }}
+                        }}
                     />
                   </span>
                 </span>
@@ -156,15 +154,15 @@ const Dholera = (props) => {
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
-                      }}
-                    />
+                        }}
+                        />
                   </span>
                   <span>
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
-                      }}
-                    />
+                        }}
+                        />
                   </span>
                 </span>
                 <span>
@@ -172,14 +170,14 @@ const Dholera = (props) => {
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
-                      }}
-                      />
+                        }}
+                        />
                   </span>
                   <span>
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
-                      }}
+                        }}
                       />
                   </span>
                 </span>
@@ -190,13 +188,15 @@ const Dholera = (props) => {
               <button className="buttonFlat" onClick={handleClick1}>{t("sub_greeting_btn2")}→</button> */}
             </div>
               <h2 className="home-features-heading heading1">
-                {/* {t("features_heading")} */} The first smart city of India
+                      {/* {t("greeting")}  */} Dholera 
               </h2>
           </div>
         </div>
       </div>
       <div className="home-features_dholera">
         <div className="featuresContainer">
+              <h2 className='bodyLarge'>The new era</h2>
+                {/* {t("features_heading")} */} The first smart city of India
           <div className="home-features1">
             <div className="home-container02">
               <span className="overline">
