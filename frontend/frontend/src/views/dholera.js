@@ -195,8 +195,13 @@ const Dholera = (props) => {
       </div>
       <div className="home-features_dholera">
         <div className="featuresContainer">
-              <h2 className='bodyLarge'>The new era</h2>
-                {/* {t("features_heading")} */} The first smart city of India
+          <h2 className='bodyLarge'>The new era</h2>
+            {/* The first smart city of India */}
+
+            <div className='news'>
+            <img src="/images/dholera_news2.jpg" alt="team"  className="Emitence_dholera_news" />
+            <img src="/images/dholera_news1.jpeg" alt="team"  className="Emitence_dholera_news" />
+            </div>
           <div className="home-features1">
             <div className="home-container02">
               <span className="overline">
@@ -214,30 +219,6 @@ const Dholera = (props) => {
                 <span>
                   <span>
                     <span>
-                     {/* {t("features_heading_sub")} */}
-
-       
-
-            {/* <div className="property_container">
-
-            {properties.map((property, index) => (
-            <Link
-              to={{
-                pathname: '/property',
-                search:`?property=${encodeURIComponent(JSON.stringify(property))}`,
-              }}
-              key={index}
-            >
-              <PropertyCard
-                image={property.image}
-                projectName={property.projectName}
-                price={property.price}
-                type={property.type}
-                location={property.location}
-              />
-            </Link>
-            ))}
-    </div> */}
                     </span>
                     <span>
                       <span
@@ -300,37 +281,21 @@ const Dholera = (props) => {
                 </span>
               </span>
             </div>
-            {/* asfdash */}
-            {/* <div className="home-container03">
-              <FeatureCard
-                heading={t("soil_analysis")} 
-                subHeading={t("soil_analysis_guidance")}
-              ></FeatureCard>
-              <FeatureCard
-                heading={t("crop_recommendation")}
-                subHeading={t("crop_recommendation_guidance")}
-              ></FeatureCard>
-              <FeatureCard
-                heading={t("seasonal_crop_recommendation")}
-                subHeading={t("seasonal_crop_recommendation_guidance")}
-              ></FeatureCard>
-              <FeatureCard
-                heading={t("optimal_crops")}
-                subHeading={t("optimal_crops_guidance")}
-              ></FeatureCard>
-            </div> */}
+         
+            
           </div>
         </div>
      {/* .. */}
       </div>
       <div className="home-banner">
     
-      <img src="/images/emitence_dholera_@.png" alt="team"  className="Emitence_dholera_2" />
-                {/* <img src="/images/pngegg.png" alt="team"  className="Emitence_dholera_1" /> */}
+        <img src="/images/emitence_dholera_@.png" alt="team"  className="Emitence_dholera_2" />
+        
         <div className="bannerContainer home-banner1">
           <h1 className="home-banner-heading heading2">
            {t("home_page_empower")}
           </h1>
+         
           <span className="home-banner-sub-heading bodySmall">
                 {/* <image src="images/pngegg.png"/> */}
             <span>
@@ -338,67 +303,12 @@ const Dholera = (props) => {
                 
                  {t("home_page_empower_sub")}
                 
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
+
               </span>
-              <span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
+  
             </span>
-            <span>
-              <span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-              <span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-            </span>
+
           </span>
-         
         </div>
       </div>
       <div className="home-faq">

@@ -589,6 +589,19 @@
 .home-button2 {
   width: 100%;
 }
+.Emitence_dholera_news{
+  width:800px;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+}
+.Emite
+
 .Emitence_dholera_2 {
   width: 1600px;
   height: auto;
@@ -810,6 +823,12 @@
     padding-right: var(--dl-space-space-threeunits);
   }
 }
+@media (max-width:1200px) {
+  .home-banner{
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media(max-width: 1700px) {
   .home-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
@@ -880,10 +899,7 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .home-banner1 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
+
   .home-banner-sub-heading {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
