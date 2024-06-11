@@ -146,7 +146,7 @@
   flex: 0 0 auto;
   color: var(--dl-color-custom-neutral-light);
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -394,7 +394,7 @@
   width: 100%;
   display: flex;
   /* min-height: auto; */
-  height: 80vh;
+  height: 100vh;
   align-items: center;
   padding-top: var(--dl-space-space-sixunits);
   padding-left: var(--dl-space-space-threeunits);
@@ -411,7 +411,7 @@
 .news{
   display: flex;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .news {
     flex-direction: column;
   }
@@ -499,6 +499,7 @@
   color: #ffffff;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding-top: var(--dl-space-space-sixunits);
   padding-left: var(--dl-space-space-fiveunits);
