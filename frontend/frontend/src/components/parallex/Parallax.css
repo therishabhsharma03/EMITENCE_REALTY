@@ -10,7 +10,7 @@
 .parallax-background {
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 70%;
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -18,13 +18,15 @@
   z-index: -1;
 }
 
-/* .parallax-background-left {
+.parallax-background-left {
   left: 0;
 }
 
 .parallax-background-right {
   right: 0;
-} */
+}
+
+
 
 .parallax-content {
   background-color: rgba(0, 0, 0, 0.5);
@@ -39,7 +41,26 @@
   text-align: center;
   width: 100%;
 }
-
+.parallax-content-black{
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  width: 40%;
+  
+}
+.parallax-content-black-left{
+  left: 0;
+}
+.parallax-content-black-right{
+  right: 0;
+}
 @media screen and (max-width: 767px) {
   .parallax {
     justify-content: center;

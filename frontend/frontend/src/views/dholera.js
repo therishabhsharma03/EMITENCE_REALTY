@@ -88,10 +88,10 @@ const Dholera = (props) => {
           </div>
         </div>
         <div className="App">
-          <ParallaxComponent image="/images/emitence_about.jpg" alignment="left">
+          <ParallaxComponent image="/images/emitence_about.jpg" alignment="left" bg_align="right">
           <h2 className='bodyLarge'>The new era</h2>
             <div className='news'>
-              <img src="/images/dholera_news2.jpg" alt="team" className="Emitence_dholera_news" />
+              {/* <img src="/images/dholera_news2.jpg" alt="team" className="Emitence_dholera_news" /> */}
               
             </div>
 
@@ -99,7 +99,7 @@ const Dholera = (props) => {
           <section className="content-section">
      
           </section>
-          <ParallaxComponent image="/images/emitence_dholera.png"alignment="right">
+          <ParallaxComponent image="/images/emitence_dholera.png" alignment="right" bg_align="left">
 
           </ParallaxComponent>
           <section className="content-section">
