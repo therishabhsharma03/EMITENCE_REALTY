@@ -690,3 +690,17 @@ code {
 }
 
 
+.content-section{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .content-section{
+    display: block;
+    background-color: #000000;
+    color: white;
+  }
+  .hid{
+    display: none;
+  }
+}

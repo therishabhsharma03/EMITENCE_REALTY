@@ -66,6 +66,7 @@
 @media screen and (max-width: 767px) {
   .parallax {
     justify-content: center;
+    height: 50vh;
   }
   .parallax-background {
     width: 100%;
