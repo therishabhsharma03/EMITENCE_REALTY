@@ -420,10 +420,13 @@
 }
 @media screen and (max-width: 1200px) {
   .news {
+
     flex-direction: column;
+        width: 80%;
+    }
   }
   
-}
+
 .heroContainer_about{
   display: border-box;
 
@@ -588,6 +591,17 @@
   font-family: Cabin;
   font-weight: 400;
   line-height: 150%;
+}
+@media screen and (max-width: 768px) {
+  .bodySmall {
+    font-size: 12px;
+    font-family: Cabin;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .bodyLarge{
+    font-size: 30px;
+  }
 }
 .bodyMedium{
   font-size: 28px;
