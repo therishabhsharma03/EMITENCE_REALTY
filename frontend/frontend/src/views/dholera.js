@@ -72,12 +72,7 @@ const Dholera = (props) => {
               {/* <img src="/images/dholera_news2.jpg" alt="team" className="Emitence_dholera_news" />
               <img src="/images/dholera_news1.jpeg" alt="team" className="Emitence_dholera_news" /> */}
             </div>
-            <div className="home-features1">
-              <div className="home-container02">
-                <span className="overline"><br /></span>
-                <span className="home-features-sub-heading bodyLarge"></span>
-              </div>
-            </div>
+
           </div>
         </div>
         <ParallaxComponent image="/images/emitence_about.jpg" alignment="left" bg_align="right">
@@ -88,28 +83,16 @@ const Dholera = (props) => {
             {/* <img src="/images/dholera_news2.jpg" alt="team" className="Emitence_dholera_news" /> */}
             <p className="bodySmall"> Dholera is designated as a Special Investment Region,
               intended to foster economic development by attracting investments in various
-              sectors like manufacturing, infrastructure, and technology. <span className="goldText"> Emitence Realty </span>
+              sectors like manufacturing, infrastructure, and technology. 
               is actively involved in identifying prime commercial properties within the region,
               providing strategic locations for businesses and investors.</p>
+              {/* <span className="goldText"> Emitence Realty </span> */}
 
           </div>
       
         </ParallaxComponent>
         
-        <section className="content-section">
-        
-        <h2 className='bodyLarge goldText'>Planned Smart City</h2>
-          <div className='news'>
-            {/* <img src="/images/dholera_news2.jpg" alt="team" className="Emitence_dholera_news" /> */}
-            <p className="bodySmall"> Dholera is designated as a Special Investment Region,
-              intended to foster economic development by attracting investments in various
-              sectors like manufacturing, infrastructure, and technology. <span className="goldText"> Emitence Realty </span>
-              is actively involved in identifying prime commercial properties within the region,
-              providing strategic locations for businesses and investors.</p>
 
-          </div>
-
-        </section>
         <ParallaxComponent image="/images/emitence_dholera.png" alignment="right" bg_align="left">
           <h2 className='bodyLarge goldText'>Geographical Location</h2>
           <div className='news'>
