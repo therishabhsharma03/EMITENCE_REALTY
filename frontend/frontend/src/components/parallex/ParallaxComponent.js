@@ -6,8 +6,8 @@ const ParallaxComponent = ({ image, children, alignment, bg_align }) => {
   const bg = bg_align==='right' ? 'parallax-content-black-right' : 'parallax-content-black-left';
   return (
     <div className="parallax">
-      <div className={`parallax-background   ${alignmentClass}`}  style={{ backgroundImage: `url(${image})` }}></div>
-      <div className={`parallax-content parallax-content-black ${bg}` }>
+      <div className={`parallax-background ${alignmentClass}`} style={{ backgroundImage: `url(${image})` }}></div>
+      <div className={`parallax-content parallax-content-black ${bg}`}>
         {children}
       </div>
     </div>
