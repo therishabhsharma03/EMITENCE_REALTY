@@ -144,7 +144,7 @@ const Dholera = (props) => {
 
         </section>
         <ParallaxComponent image="/images/emitence_dholera4.jpg" alignment="right" bg_align="left">
-          <h2 className='bodyLarge goldText'>Residential and Commercial Spaces</h2>
+          <h2 className='bodyLarge goldText'>Residential & Commercial Spaces</h2>
           <div className='news'>
             {/* <img src="/images/dholera_news2.jpg" alt="team" className="Emitence_dholera_news" /> */}
             <p className="bodySmall">The city will feature a mix of residential,
