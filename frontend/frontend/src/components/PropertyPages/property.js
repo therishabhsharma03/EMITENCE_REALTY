@@ -13,7 +13,7 @@ export default function PropertyPage() {
       <p>Price: {property.price}</p>
       <p>Type: {property.type}</p>
       <p>Location: {property.location}</p>
-      {/* Render other content based on property values */}
     </div>
+    
   );
 }
